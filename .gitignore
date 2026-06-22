@@ -1,0 +1,111 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE / OS
+# =========================
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# =========================
+# Project runtime data
+# =========================
+data/videos/*
+data/frames/*
+outputs/*
+storage/*
+tmp/
+temp/
+
+# Keep directory structure
+!data/videos/.gitkeep
+!data/frames/.gitkeep
+!outputs/.gitkeep
+!storage/.gitkeep
+
+# =========================
+# Media files
+# =========================
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.m4v
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.flac
+
+# =========================
+# Generated recipe artifacts
+# =========================
+*.recipe.json
+*.recipe.md
+
+# =========================
+# Model / cache files
+# =========================
+models/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.bin
+*.safetensors
+
+# Hugging Face / ML caches
+.cache/
+huggingface/
+hf_cache/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Docker
+# =========================
+.docker/
+docker-compose.override.yml
+
+# =========================
+# Build artifacts
+# =========================
+build/
+dist/
+*.egg-info/
