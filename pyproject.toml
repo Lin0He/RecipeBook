@@ -1,0 +1,34 @@
+[project]
+name = "recipebook"
+version = "0.3.0"
+description = "Video-to-recipe AI tool using OCR, ASR, and LLM structuring."
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "pydantic>=2.8.0",
+    "pydantic-settings>=2.4.0",
+    "python-multipart>=0.0.9",
+    "openai>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.6.0",
+]
+media = [
+    "yt-dlp>=2025.1.0",
+    "easyocr>=1.7.0",
+    "faster-whisper>=1.0.0",
+    "opencv-python>=4.10.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+markers = [
+    "media: tests that require real OCR/ASR dependencies and model downloads",
+]
+
+[tool.ruff]
+line-length = 100

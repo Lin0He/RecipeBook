@@ -1,0 +1,39 @@
+{
+  "recipe_id": "recipe_6169af03965a",
+  "title": "Generated Recipe",
+  "description": "Recipe structured from video OCR and audio transcript.",
+  "ingredients": [
+    {
+      "name": "pasta",
+      "quantity": null,
+      "note": null
+    },
+    {
+      "name": "parmesan",
+      "quantity": null,
+      "note": null
+    },
+    {
+      "name": "tomato",
+      "quantity": null,
+      "note": null
+    },
+    {
+      "name": "onion",
+      "quantity": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "instruction": "Review the extracted video text and prepare the recipe manually.",
+      "timing": null
+    }
+  ],
+  "total_time": null,
+  "tools": [],
+  "tips": [],
+  "source_video": "data/videos/pinterest.mp4",
+  "extracted_text": "[00:00 OCR] ~esto Pasta Salad with nmatoes & mozzarella\n[00:00 ASR] Pasta Salad Season is here and this Pesto Pasta Salad is perfect for spring.\n[00:04 ASR] It's loaded with favorite ingredients like fresh tomatoes, mozzarella, onion, and sliced basil,\n[00:09 ASR] all tossed in a vibrant Pesto sauce.\n[00:11 ASR] I personally love using my homemade kale Pesto, but you can always use your favorite instead.\n[00:16 ASR] Top it with shredded parmesan cheese, answer. I hope you enjoy!"
+}

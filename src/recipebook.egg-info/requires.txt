@@ -1,0 +1,16 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.8.0
+pydantic-settings>=2.4.0
+python-multipart>=0.0.9
+openai>=1.0.0
+
+[dev]
+pytest>=8.0.0
+ruff>=0.6.0
+
+[media]
+yt-dlp>=2025.1.0
+easyocr>=1.7.0
+faster-whisper>=1.0.0
+opencv-python>=4.10.0

@@ -1,0 +1,79 @@
+{
+  "recipe_id": "recipe_f541fb6073c0",
+  "title": "Pesto Pasta Salad",
+  "description": "Loaded with fresh tomatoes, mozzarella, onion, and sliced basil, all tossed in a vibrant pesto sauce. Can use homemade kale pesto or your favorite store-bought. Top with shredded Parmesan cheese.",
+  "ingredients": [
+    {
+      "name": "pasta",
+      "quantity": null,
+      "note": null
+    },
+    {
+      "name": "tomatoes",
+      "quantity": null,
+      "note": "fresh"
+    },
+    {
+      "name": "mozzarella",
+      "quantity": null,
+      "note": null
+    },
+    {
+      "name": "onion",
+      "quantity": null,
+      "note": null
+    },
+    {
+      "name": "basil",
+      "quantity": null,
+      "note": "sliced"
+    },
+    {
+      "name": "pesto sauce",
+      "quantity": null,
+      "note": "homemade kale or store-bought"
+    },
+    {
+      "name": "Parmesan cheese",
+      "quantity": null,
+      "note": "shredded"
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "instruction": "Cook pasta according to package directions. Drain and let cool.",
+      "timing": null
+    },
+    {
+      "order": 2,
+      "instruction": "Chop tomatoes, mozzarella, onion, and slice basil.",
+      "timing": null
+    },
+    {
+      "order": 3,
+      "instruction": "In a large bowl, combine cooked pasta, tomatoes, mozzarella, onion, and basil.",
+      "timing": null
+    },
+    {
+      "order": 4,
+      "instruction": "Add pesto sauce and toss until everything is well coated.",
+      "timing": null
+    },
+    {
+      "order": 5,
+      "instruction": "Top with shredded Parmesan cheese before serving.",
+      "timing": null
+    }
+  ],
+  "total_time": null,
+  "tools": [
+    "pot",
+    "mixing bowl",
+    "knife",
+    "cutting board"
+  ],
+  "tips": [],
+  "source_video": "data/videos/pinterest.mp4",
+  "extracted_text": "Pesto Pasta Salad with tomatoes and mozzarella. Loaded with fresh tomatoes, mozzarella, onion, and sliced basil, all tossed in a vibrant pesto sauce. Can use homemade kale pesto or your favorite store-bought. Top with shredded Parmesan cheese."
+}
